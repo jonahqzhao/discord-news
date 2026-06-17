@@ -15,9 +15,9 @@ description = "\n\n".join(
 )
 
 payload = {
-    "username": "Fox News Bot",
+    "username": "PATRIOT NEWS",
     "embeds": [{
-        "title": "🦊 Top Fox News Headlines",
+        "title": "AMERICA'S BIGGEST HEADLINES",
         "description": description,
         "footer": {
             "text": datetime.utcnow().strftime("%Y-%m-%d")
