@@ -2,12 +2,12 @@ name: Test Schedule
 
 on:
   workflow_dispatch:
+  push:
   schedule:
     - cron: "*/15 * * * *"
 
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
-      - run: echo "Scheduled run works"
+      - run: echo "event=${{ github.event_name }}"
